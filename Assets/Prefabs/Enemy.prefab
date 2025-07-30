@@ -118,9 +118,9 @@ GameObject:
   - component: {fileID: 2648643888125271112}
   - component: {fileID: 6049632311563827206}
   - component: {fileID: 6317414137186670804}
-  - component: {fileID: 158700051734568546}
+  - component: {fileID: 4729039370455924767}
   m_Layer: 0
-  m_Name: Player_WASD_MOUSE
+  m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -170,7 +170,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3d9914e92c1db3f4caed885c92e0b7e9, type: 2}
+  - {fileID: 2100000, guid: d76d5dba59c8a824a8170635648a356c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -237,7 +237,7 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 7
   m_ObstacleAvoidanceType: 4
---- !u!114 &158700051734568546
+--- !u!114 &4729039370455924767
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -246,7 +246,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1187431923072526681}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: baa6c28c89513924597feb2726642556, type: 3}
+  m_Script: {fileID: 11500000, guid: acd5066e0f59c2d479adc7c6d38c7bf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _isWASD: 1
+  _waypoints: []

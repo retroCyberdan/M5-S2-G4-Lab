@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class PlayerController : MonoBehaviour
+public class AgentPlayerController : MonoBehaviour
 {
     private NavMeshAgent _agent;
     [SerializeField] private bool _isWASD = false;
