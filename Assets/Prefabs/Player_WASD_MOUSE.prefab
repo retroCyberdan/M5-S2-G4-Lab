@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8271881034981405120}
   - component: {fileID: 7456318109310576820}
   - component: {fileID: 278834648825080424}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,7 +119,7 @@ GameObject:
   - component: {fileID: 6049632311563827206}
   - component: {fileID: 6317414137186670804}
   - component: {fileID: 158700051734568546}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player_WASD_MOUSE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
